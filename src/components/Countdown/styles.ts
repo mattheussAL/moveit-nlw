@@ -55,8 +55,33 @@ export const Button = styled.button`
  transition: all .2s ease-in;
  outline: none;
 
- &:hover {
+ &:disabled {
+  color: var(--text);
+  background: var(--white);
+  border-bottom: 4px solid var(--green);
+
+  cursor: not-allowed;
+
+  img {
+   width: 20px;
+   height: 20px;
+   margin-left: 1.5rem;
+
+  }
+ }
+
+ &:not(:disabled):hover {
   background-color: var(--blue-dark);
   transform: scale(1.1);
+ }
+
+ &.active {
+  color: var(--title);
+  background-color: var(--white);
+
+  &:not(:disabled):hover {
+   color: var(--white);
+   background-color: var(--red);
+  }
  }
 `;

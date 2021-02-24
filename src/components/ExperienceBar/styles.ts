@@ -20,6 +20,14 @@ export const Header = styled.header`
    height: 4px;
    border-radius: 4px;
    background: var(--green);
+   box-shadow: 0 0 3px var(--green);
+   animation: animation 2s ease-in;
+
+   @keyframes animation {
+    0% { width: 0% }
+    50% { width: 25% }
+    100% { width: 50% }
+   }
   }
 
   .current-experience {

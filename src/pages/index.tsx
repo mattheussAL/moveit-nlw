@@ -4,6 +4,7 @@ import styled from 'styled-components';
 // Components
 import Profile from '../components/Profile';
 import Countdown from '../components/Countdown';
+import ChallengeBox from '../components/ChallengeBox';
 import ExperienceBar from '../components/ExperienceBar';
 import CompleteChallenges from '../components/CompleteChallenges';
 
@@ -52,7 +53,7 @@ export default function Home() {
         </LeftContainer>
 
         <RightContainer>
-
+          <ChallengeBox />
         </RightContainer>
       </section>
     </Container>
