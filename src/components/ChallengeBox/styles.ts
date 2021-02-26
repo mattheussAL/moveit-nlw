@@ -9,12 +9,13 @@ export const ChallangeBoxContainer = styled.div`
 
  border-radius: 5px;
  background: var(--white);
- box-shadow: 0 0 60px rgba(0,0,0,.05);
+ box-shadow: 0 0 60px rgba(0, 0, 0, .05);
 
  display: flex;
  align-items: center;
  flex-direction: column;
  justify-content: center;
+
 `;
 
 export const Active = styled.div`
