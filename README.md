@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Move.it" title="Move.it" src=".github/moveit.svg" />
+    <img alt="Move.it" title="Move.it" src=".github/logo-full.svg" width="200"/>
 </h1>
 
 <p align="center">
@@ -12,10 +12,6 @@
 </p>
 
 <br>
-
-<p align="center">
-  <img alt="Moveit" src=".github/logo-full.svg" width="120px">
-</p>
 
 ## 🧪 Tecnologias
 
