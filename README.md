@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Move.it" title="Move.it" src=".github/logo-full.svg" width="200"/>
+    <img alt="Move.it" title="Move.it" src=".github/logo-full.svg" width="300"/>
 </h1>
 
 <p align="center">
@@ -13,7 +13,7 @@
 
 <br>
 
-## 🧪 Tecnologias
+## :gem: Tecnologias
 
 Tecnologias utilizadas na produção desse projeto.
 
@@ -21,7 +21,7 @@ Tecnologias utilizadas na produção desse projeto.
 - [React](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Como começar
+## :pushpin: Como começar
 
 Clone o projeto.
 
