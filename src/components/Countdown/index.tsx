@@ -4,8 +4,6 @@ import  { CountdownConext } from '../../contexts/CountdownContext';
 
 import { CountdownContainer, Button } from './styles';
 
-let countdownTimeout: NodeJS.Timeout;
-
 const Countdown: React.FC = () => {
   const {
     second, minutes, isActive, hasFinish,

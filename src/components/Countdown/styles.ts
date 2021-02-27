@@ -8,6 +8,7 @@ export const CountdownContainer = styled.div`
 
  display: flex;
  align-items: center;
+ transition: all 1s ease;
 
  & > div {
   font-size: 8.5rem;
@@ -43,7 +44,7 @@ export const Button = styled.button`
  height: 5rem;
  margin-top: 2rem;
 
- color: var(--white);
+ color: #F4FBF8;
  border: none;
  border-radius: 5px;
  background-color: var(--blue);

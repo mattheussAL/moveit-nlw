@@ -13,6 +13,20 @@ export const GlobalStyles = createGlobalStyle`
   --background:     #F2F3F5;
   --blue-twitter:   #2AA9E0;
   --text-highlight: #B3B9FF;
+  --shadow: rgba(0, 0, 0, .05);
+ }
+
+ .dark-mode:root{
+  --text: #F4FBF8;
+  --title: #F4F5F6;
+  --blue: #5965E0;
+  --white: #141414;
+  --gray-line: #DCDDE0;
+  --blue-dark: #4953B8;
+  --background: #111111;
+  --blue-twitter: #2AA9E0;
+  --text-highlight: #B3B9FF;
+  --shadow: rgba(0, 0, 0, 0);
  }
 
  * {
@@ -35,6 +49,7 @@ export const GlobalStyles = createGlobalStyle`
  body {
   background: var(--background);
   color: var(--text);
+  transition: all .25s ease-in;
  }
 
  button {

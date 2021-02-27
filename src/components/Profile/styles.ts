@@ -12,7 +12,7 @@ export const Image = styled.img`
  border: none;
  border-radius: 50%;
 
- box-shadow: 0 0 15px #cccccc;
+ box-shadow: 0 0 15px var(--white);
  cursor: pointer;
 `;
 

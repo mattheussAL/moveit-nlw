@@ -20,7 +20,7 @@ export const Header = styled.header`
    height: 4px;
    border-radius: 4px;
    background: var(--green);
-   box-shadow: 0 0 3px var(--green);
+   box-shadow: 0 0 8px var(--green);
    transition: all .3s ease-in;
 
   }

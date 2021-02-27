@@ -9,7 +9,7 @@ export const ChallangeBoxContainer = styled.div`
 
  border-radius: 5px;
  background: var(--white);
- box-shadow: 0 0 60px rgba(0, 0, 0, .05);
+ box-shadow: 0 0 60px var(--shadow);
 
  display: flex;
  align-items: center;
@@ -65,7 +65,7 @@ export const Active = styled.div`
 
    height: 3rem;
 
-   color: var(--white);
+   color: #F4FBF8;
 
    border: none;
    border-radius: 5px;
@@ -84,12 +84,12 @@ export const Active = styled.div`
 
    &.failed { 
     background: var(--red);
-    box-shadow: 4px 4px 4px #cccccc;
+    box-shadow: 4px 4px 4px var(--white);
    }
    
    &.success { 
     background: var(--green);
-    box-shadow: -4px 4px 4px #cccccc;
+    box-shadow: -4px 4px 4px var(--white);
    }
   }
  }
