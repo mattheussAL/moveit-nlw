@@ -36,7 +36,7 @@ export const Container = styled.div`
   font-size: 8.75rem;
   font-weight: 600;
   color: var(--blue);
-  background-image: url('/icons/leveluo.svg') no-repeat center;
+  background-image: url('/icons/levelup.svg') no-repeat center;
   background-size: contain;
  }
 
